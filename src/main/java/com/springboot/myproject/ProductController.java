@@ -24,7 +24,7 @@ public class ProductController
 	public String getMessage() throws UnknownHostException{
 		String ip = InetAddress.getLocalHost().getHostAddress();
 		System.out.println("Application is listening in" + ip);
-		return "You're not Welcome to Products Catalog" + "\n" + "\n App is listening on:" + ip;
+		return "You're not Welcome to Products Catalog" + "\n" + "\n Application is listening on:" + ip;
 
 	}
 	
